@@ -1,0 +1,81 @@
+#top {
+  position: sticky;
+  z-index: 1;
+  top: 0px;
+}
+.searchBox {
+  width: 86%;
+  border-radius: 10px;
+  border: 3px solid black;
+}
+#SearchBtn {
+  color: burlywood;
+  font-size: x-large;
+  font-weight: bolder;
+}
+#SearchBtn:hover {
+  transform: scale(1.03);
+  transition: 0.7s;
+  background-color: burlywood;
+  color: black;
+}
+.boder {
+  border: 10px;
+}
+.TODO {
+  width: 86%;
+  border-radius: 10px;
+  border: 1px;
+}
+.ml {
+  margin-left: 10px;
+}
+.TODO:hover {
+  transform: scale(1.03);
+  border: 3px solid red;
+}
+.addTodo {
+  width: 86%;
+  border-radius: 1000px;
+}
+#addbtn {
+  font-weight: bolder;
+  color: white;
+  background-color: black;
+}
+#addbtn:hover {
+  transition: 0.7s;
+  transform: scale(1.2);
+}
+#deletebtn {
+    color: white;
+    font-weight: bold;
+}
+#deletebtn:hover{
+    transform: scale(1.2);
+}
+
+.HelpButton{
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-align: center;
+  border-radius: 100px;
+  margin-top: 100px;
+  height: 25px;
+}
+.MainDiv{
+  height: 150vh;
+}
+.reDirectLink{
+  outline: none;
+  text-decoration: none;
+  color:aliceblue;
+}
+
+
+.reDirectLink:hover{
+  color: white;
+}
